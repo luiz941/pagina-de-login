@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cadastro.css">
+    <title>Pagina de cadastro</title>
+</head>
+<body>
+    <main>
+        <section class="conteudo-principal">
+            <h1 class="titulo-principal">Cadastre-se no site</h1>
+            <div class="botoes-rapidos">
+                <button class="botao-rapido"><img class="imagem-botao" src="assets/google.svg" alt="">Google</button>
+                <button class="botao-rapido"><img class="imagem-botao" src="assets/github.svg" alt="">Github</button>
+            </div>
+            <div class="separador">
+                <div class="line"></div>
+                <span>OU</span>
+                <div class="line"></div>
+            </div>
+            <div>
+                <form class="formulario-princial">
+                    <label class="descricao-input" for="email">Email</label>
+                    <input class="campo-usuario" type="email" id="email" name="email">
+
+                    <label class="descricao-input" for="senha">Senha</label>
+                    <input class="campo-usuario" type="password" name="senha" id="senha">
+
+                    <label class="descricao-input" for="confirme-senha">Confirme sua senha</label>
+                    <input class="campo-usuario" type="password" name="confirme-senha" id="confirme-senha">
+
+                    <div class="formulario-div">
+                        <input type="checkbox" id="receber-emails" name="receber-emails">
+                        <label class="formulario-checkbox" for="receber-emails">Receber atualizações sobre produtos<br> e novidades</label>
+                    </div>
+
+                    <button class="botao-formulario">Cadastrar-se</button>
+                </form>
+            </div>
+            <footer>
+                <p class="rodape">Já tem uma conta? <a href="index.html">Entrar</a></p>
+            </footer>
+        </section>
+    </main>
+</body>
+</html>

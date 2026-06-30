@@ -10,11 +10,12 @@ body {
 .conteudo-principal {
     display: flex;
     flex-direction: column;
-    height: 600px;
+    height: 700px;
     width: 510;
     background-color: rgba(0, 0, 0, 0.9);
     border-radius: 10px;
     margin-top: 15px;
+    margin-bottom: 15px;
 }
 
 .titulo-principal {
@@ -23,6 +24,54 @@ body {
     margin-top: 59px;
     margin-left: 100px;
     margin-right: 100px;
+}
+
+.botoes-rapidos {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.botao-rapido {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 80px;
+    height: 40px;
+    margin-left: 120px;
+    margin-right: 120px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 15px;
+    font-family: "Inter", sans-serif;
+}
+
+.botao-rapido:hover {
+    cursor: pointer;
+}
+
+.imagem-botao {
+    height: 18px;
+    width: 18px;
+}
+
+.separador {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    width: 100%;
+    margin-top: 15px;
+}
+
+.line {
+    flex: 1;
+    height: 1px;
+    background-color: #ffffff;
+}
+
+span {
+    color: white;
+    font-weight: bold
 }
 
 .descricao-input {
@@ -68,56 +117,21 @@ body {
     cursor: pointer;
 }
 
-.separador {
-    display: flex;
-    align-items: center;
-    gap: 15px;
-    width: 100%;
-    margin-top: 15px;
-}
-
-.line {
-    flex: 1;
-    height: 1px;
-    background-color: #ffffff;
-}
-
-span {
-    color: white;
-    font-weight: bold
-}
-
-.botoes-rapidos {
-    display: flex;
-    flex-direction: column;
-    margin-top: 20px;
-}
-
-.botao-rapido {
+.formulario-div {
     display: flex;
     flex-direction: row;
-    align-items: center;
-    gap: 60px;
-    height: 40px;
-    margin-left: 120px;
-    margin-right: 120px;
-    margin-top: 20px;
-    border: none;
-    border-radius: 15px;
+    margin: auto;
+    gap: 5px;
+}
+
+.formulario-checkbox {
     font-family: "Inter", sans-serif;
-}
-
-.botao-rapido:hover {
-    cursor: pointer;
-}
-
-.imagem-botao {
-    height: 18px;
-    width: 18px;
+    color: #ffffff;
+    font-size: 12px;
 }
 
 .rodape {
-    margin-left: 110px;
+    margin-left: 155px;
     margin-top: 30px;
     font-family: "Inter", sans-serif;
     color: #ffffff;
